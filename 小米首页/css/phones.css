@@ -1,0 +1,79 @@
+.phones .phone-banner img {
+    width: 100%;
+}
+
+.phones .phones-display .title {
+    line-height: 58px;
+}
+
+.phones .phones-display .title .name {
+    font-size: 22px;
+    color: #333;
+    font-weight: 200;
+}
+
+.phones .phones-display .title .more {
+    font-size: 16px;
+}
+
+.phones .phones-display .title .more:hover {
+    color: var(--mi-orange);
+}
+
+.phones .phones-display .title .more .iconfont {
+    background: #b0b0b0;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 12px;
+    padding: 4px;
+}
+
+.phones .phones-display .title .more:hover .iconfont {
+    background: var(--mi-orange);
+}
+
+.phones .phones-display .main-banner {
+    margin-right: 14px;
+}
+
+.phones .phones-display .other-items .item {
+    margin-left: 14px;
+    text-align: center;
+    background: #fff;
+    height: 300px;
+    width: 234px;
+    margin-bottom: 14px;
+}
+
+.phones .phones-display .other-items .item:nth-child(4n + 1) {
+    margin-left: 0;
+}
+
+.phones .phones-display .other-items .item a {
+    padding: 20px 0;
+}
+
+.phones .phones-display .other-items .item a:hover {
+    color: inherit;
+}
+
+.phones .phones-display .other-items .item img {
+    width: 160px;
+    height: 160px;
+    margin: 0 auto 18px;
+}
+
+.phones .phones-display .other-items .item .title {
+    margin: 0 10px 2px;
+    line-height: 21px;
+}
+
+.phones .phones-display .other-items .item .description {
+    font-size: 12px;
+    color: #b0b0b0;
+    margin: 0 10px 10px;
+}
+
+.phones .phones-display .other-items .item .price {
+    color: #ff6700;
+}

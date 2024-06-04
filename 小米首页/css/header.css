@@ -1,0 +1,149 @@
+.header {
+    border-bottom: 1px solid #ddd;
+}
+
+.header .top-section {
+    height: 40px;
+    line-height: 40px;
+    background: #333;
+    font-size: 12px;
+}
+
+.header .top-section ul li a {
+    color: #b0b0b0;
+}
+
+.header .top-section ul li::after {
+    display: inline-block;
+    margin: 0 7px;
+    content: "|";
+    color: #424242;
+}
+
+.header .top-section ul li:last-child::after {
+    display: none;
+}
+
+.header .top-section ul li::after:hover {
+    cursor: none;
+    color: #424242;
+}
+
+.header .top-section ul li a:hover {
+    color: #fff;
+}
+
+.header .top-section .account-related .cart {
+    width: 120px;
+    text-align: center;
+    position: relative;
+    background: #424242;
+    line-height: 38.3px;
+}
+
+.header .top-section .account-related .cart a {
+    display: block;
+}
+
+.header .top-section .account-related .cart a i.iconfont-cart {
+    font-size: 20px;
+    vertical-align: -3px;
+}
+
+.header .top-section .account-related .cart .cart-list {
+    display: none;
+}
+
+.header .top-section .account-related .cart.active {
+    background: #fff;
+}
+
+.header .top-section .account-related .cart.active a {
+    color: var(--mi-orange);
+}
+
+.header .top-section .account-related .cart.active .cart-list {
+    position: absolute;
+    display: block;
+    top: 40px;
+    width: 120px;
+    height: 90px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.header .main-bar {
+    margin-top: 22px;
+    margin-bottom: 22px;
+}
+
+.header .main-bar .logo-wrapper {
+    display: block;
+    height: 56px;
+    width: 56px;
+}
+
+.header .main-bar .logo-wrapper .logo {
+    width: 100%;
+}
+
+.header .main-bar .appliances-menu {
+    margin-left: 187px;
+    font-size: 16px;
+}
+
+.header .main-bar .appliances-menu li {
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.header .main-bar .searchbar {
+    width: 296px;
+    height: 50px;
+    border: 1px solid rgb(221, 221, 221);
+    position: relative;
+}
+
+.header .main-bar .searchbar .search-query {
+    font-size: 14px;
+    line-height: 48px;
+    padding: 0 10px;
+}
+
+.header .main-bar .searchbar .search-button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height:49px;
+    width: 49px;
+    border-left: 1px solid rgb(221, 221, 221);
+    font-size: 24px;
+    background: none;
+}
+
+.header .main-bar .searchbar.active {
+    border: 1px solid var(--mi-orange);
+}
+
+.header .main-bar .searchbar.active .search-button {
+    border-left: 1px solid var(--mi-orange);
+}
+
+.header .main-bar .searchbar.active .dropdown {
+    display: block;
+    position: absolute;
+    top: 48px;
+    left: -1px;
+    width: 247px;
+    border: 1px solid var(--mi-orange);
+    background: white;
+    line-height: 18px;
+}
+
+.header .main-bar .searchbar.active .dropdown a {
+    display: block;
+    padding: 6px 15px;
+    color: #424242;
+    font-size: 12px;
+}
